@@ -1,21 +1,28 @@
-name: Deploy Hexo
+name: Deploy
 
 on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 完整克隆历史
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - name: Install Dependencies
+      - name: Install Hexo
         run: |
           npm install -g hexo-cli
           npm install
@@ -30,5 +37,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          # 如果是用户页（username.github.io）去掉下一行
-          destination_dir: ./docs  # 项目页必须加这个！
+          keep_files: true  # 保留历史文件
