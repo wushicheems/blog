@@ -1,7 +1,7 @@
 ---
 title: hello-everyone
 date: 2025-08-13 16:47:13
-tags: [mynewblog]
+tags: hello-everyone
 categories: newone
 cover: /source/_posts/hello-everyone/logo.png
 excerpt: 新人入坑program和blog
