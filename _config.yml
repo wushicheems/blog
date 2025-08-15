@@ -97,13 +97,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:wushicheems/blog.git  # 替换为你的仓库地址
+  repo: https://github.com/wushicheems/blog.git  # 替换为你的仓库地址
   branch: main
   message: "更新博客：{{ now('YYYY-MM-DD HH:mm:ss') }}"
 sitemap:

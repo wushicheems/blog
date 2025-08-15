@@ -1,0 +1,147 @@
+# ========== 基础设置 ==========
+title: 武士芝士的无聊个人博客
+subtitle: 学习中
+description: 一个很无聊的讲知识与博客网站
+keywords: stupid,student,studying
+author: 武士芝士
+author_title: stupid-student
+language: zh-CN
+timezone: Asia/Shanghai
+favicon: https://wushicheems.github.io/logo.png
+avatar:
+  img: https://wushicheems.github.io/logo.png?ver=1
+  effect: false
+
+# ========== 主题颜色设置（标准蓝色）==========
+theme_color:
+  enable: true
+  main: "#1E88E5"          # 主色调-标准Material Blue
+  paginator: "#1565C0"     # 分页器深蓝色
+  button_hover: "#0D47A1"  # 按钮悬停海军蓝
+  text_selection: "#90CAF9" # 文本选中浅蓝
+  link_color: "#1976D2"    # 链接中蓝色
+  meta_color: "#546E7A"    # 元信息蓝灰色
+  hr_color: "#BBDEFB"      # 水平线淡蓝
+
+# ========== 背景设置 ==========
+background:
+  color: "linear-gradient(to right bottom, #E3F2FD, #BBDEFB)"  # 标准蓝渐变
+  image: https://wushicheems.github.io/logo.png
+  mask: rgba(255, 255, 255, 0.8)
+
+# ========== 导航菜单 ==========
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-user
+
+# ========== 社交链接配置 ==========
+social:
+  fa-github: https://github.com/wushicheems || GitHub
+  fa-envelope: chengxunew@163.com || Email
+  fa-steam: https://steamcommunity.com/id/chengxuwushizhishisteam/ || Steam
+
+social_icon:
+  enable: true
+  icons_only: false
+  transition: true
+
+# ========== 搜索功能配置 ==========
+local_search:
+  enable: true
+  preload: false
+  highlight: true
+  search_form_position: bottom
+  search_result_position: right
+
+algolia_search:
+  enable: false
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}"
+    hits_stats: "${hits} results found in ${time} ms"
+
+# ========== 侧边栏配置 ==========
+aside:
+  enable: true
+  position: right
+  mobile: true
+  
+  card_author:
+    enable: true
+    description: 我很丑，很笨(纯瞎扯)
+    avatar: https://wushicheems.github.io/logo.png?ver=1  # 加版本号强制刷新
+    button:
+      enable: true
+      icon: fas fa-envelope
+      text: 联系我
+      link: https://github.com/wushicheems
+
+  card_announcement:
+    enable: true
+    content: 联系18372735812(手机/微信)可以询问哦
+
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+
+# ========== 文章页配置 ==========
+post:
+  cover:
+    enable: true
+    default: https://wushicheems.github.io/logo.png
+    position: center
+    width: 100%
+    height: auto
+  
+  meta:
+    date_type: created
+    categories: true
+    tags: true
+    wordcount: true
+    reading_time: true
+  
+  photo_zoom: true
+  photo_fancybox: true
+  photo_justify: true
+  
+  reward:
+    enable: false
+
+# ========== 评论系统 ==========
+valine:
+  enable: true
+  appId: blog-three-alpha-68.vercel.app
+  appKey: 1234qwer
+  serverURLs: https://blog-three-alpha-68.vercel.app
+  placeholder: 说点什么吧~
+  avatar: mp
+  meta: ['nick','mail','link']
+  pageSize: 10
+  lang: zh-cn
+
+# ========== 特效功能 ==========
+click_effect:
+  enable: true
+  type: fireworks
+
+canvas_fluttering_ribbon:
+  enable: true
+  color: "#42A5F5"  # 标准亮蓝色丝带
+  zIndex: -1
+  alpha: 0.6
+
+# ========== 代码高亮 ==========
+highlight_theme: mac
+highlight_copy: true
+highlight_lang: true
+
+# ========== 图片懒加载 ==========
+lazyload:
+  enable: true
+  loading_img: https://wushicheems.github.io/1/loading.gif
