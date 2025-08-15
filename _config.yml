@@ -104,7 +104,7 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/wushicheems/blog.git  # 替换为你的仓库地址
-  branch: main
+  branch: gh-pages
   message: "更新博客：{{ now('YYYY-MM-DD HH:mm:ss') }}"
 sitemap:
   path: sitemap.xml
