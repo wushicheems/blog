@@ -4,6 +4,7 @@ date: 2025-08-14 18:03:46
 tags: teach-python
 comments: true
 excerpt: Python第一课
+categories: teach-python
 ---
 
 # 欢迎来到我的Python小课程

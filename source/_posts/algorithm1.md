@@ -4,6 +4,7 @@ date: 2025-08-14 18:03:59
 tags: teach-algorithm
 excerpt: 算法第一课：冒泡排序
 comments: true
+categories: teach-algorithm
 ---
 
 # 欢迎来到算法基础课程
