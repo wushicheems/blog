@@ -18,7 +18,7 @@ categories: teach-algorithm
    - 使较大元素逐渐"浮"到数组末端
 
 2. **C++实现**：
-```
+```cpp
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n-1; i++) {
         for (int j = 0; j < n-i-1; j++) {

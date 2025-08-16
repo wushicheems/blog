@@ -37,7 +37,9 @@ categories: teach-python
 
 5. 完成:
    大家在**IDE**里面输入
-   ```print("hello,world!")```
+   ```py
+   print("hello,world!")
+   ```
    **试验一番！！！**
    看一下是不是**hello,world!**
 
