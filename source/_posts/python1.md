@@ -36,7 +36,8 @@ categories: teach-python
    大家还是要记得**勾选所有选项**
 
 5. 完成:
-   大家在**IDE**里面输入
+   大家在**IDE**里面创建`main.py`文件,
+   输入:
    ```py
    print("hello,world!")
    ```
