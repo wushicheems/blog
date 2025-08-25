@@ -20,7 +20,7 @@ categories: teach-cpp
 ### 下面是具体步骤
 
 1. 安装编译器:
-   推荐使用**MinGW**或**G++**编译器
+   推荐使用**MinGW**或 **G++** 编译器
    打开这个链接[MinGW](https://www.mingw-w64.org/)
    按照这个图片的指示开始下载![download png](https://wushicheems.github.io/1/mingwd.png)
 
