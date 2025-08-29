@@ -6,7 +6,7 @@ comments: true
 excerpt: Python第二课
 categories: teach-python
 ---
-# Python基础语法入门
+# 欢迎来到我的Python小课程
 
 ## 第二课
 
