@@ -31,11 +31,11 @@ background:
 
 # ========== 导航菜单 ==========
 menu:
-  首页: { path: /, icon: fas fa-home }
-  归档: { path: /archives/, icon: fas fa-archive }
-  标签: { path: /tags/, icon: fas fa-tags }
-  分类: { path: /categories/, icon: fas fa-folder-open }
-  关于: { path: /about/, icon: fas fa-user }
+  首页: /
+  归档: /archives/
+  标签: { hello-everyone: /tags/hello-everyone, hexo-deploy: /tags/hexo-deploy , teach-algorithm: /tags/teach-algorithm , teach-c: /tags/teach-c , teach-cpp: /tags/teach-cpp , teach-css: /tags/teach-css , teach-html: /tags/teach-html , teach-java: /tags/teach-java , teach-javascript: /tags/teach-javascript , teach-python: /tags/teach-python , teach-rust: /tags/teach-rust }
+  分类: {newone: /categories/newone, hexo-deploy: /categories/hexo-deploy , teach-algorithm: /categories/teach-algorithm , teach-c: /categories/teach-c , teach-cpp: /categories/teach-cpp , teach-css: /categories/teach-css , teach-html: /categories/teach-html , teach-java: /categories/teach-java , teach-javascript: /categories/teach-javascript , teach-python: /categories/teach-python , teach-rust: /categories/teach-rust  }
+  关于:  /2025/08/13/hello-everyone/
 
 # ========== 社交链接配置 ==========
 social:
