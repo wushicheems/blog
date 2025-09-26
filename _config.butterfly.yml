@@ -1,0 +1,140 @@
+# ========== 基础设置 ==========
+title: 武士芝士的无聊个人博客
+subtitle: 学习中
+description: 一个很无聊的讲知识与博客网站
+keywords: 武士芝士,博客
+author: 武士芝士
+author_title: stupid-student
+language: zh-CN
+timezone: Asia/Shanghai
+favicon: https://wushicheems.github.io/logo.png
+avatar:
+  img: https://wushicheems.github.io/logo.png?ver=1
+  effect: false
+
+# ========== 主题颜色设置 ==========
+theme_color:
+  enable: true
+  main: "#1E88E5"
+  paginator: "#1565C0"
+  button_hover: "#0D47A1"
+  text_selection: "#90CAF9"
+  link_color: "#1976D2"
+  meta_color: "#546E7A"
+  hr_color: "#BBDEFB"
+
+# ========== 背景设置 ==========
+background:
+  color: "linear-gradient(to right bottom, #E3F2FD, #BBDEFB)"
+  image: https://wushicheems.github.io/logo.png
+  mask: rgba(255, 255, 255, 0.8)
+
+# ========== 导航菜单 ==========
+menu:
+  首页: /
+  归档: /archives/
+  标签: { hello-everyone: /tags/hello-everyone, hexo-deploy: /tags/hexo-deploy , teach-algorithm: /tags/teach-algorithm , teach-c: /tags/teach-c , teach-cpp: /tags/teach-cpp , teach-css: /tags/teach-css , teach-html: /tags/teach-html , teach-java: /tags/teach-java , teach-javascript: /tags/teach-javascript , teach-python: /tags/teach-python , teach-rust: /tags/teach-rust }
+  分类: {newone: /categories/newone, hexo-deploy: /categories/hexo-deploy , teach-algorithm: /categories/teach-algorithm , teach-c: /categories/teach-c , teach-cpp: /categories/teach-cpp , teach-css: /categories/teach-css , teach-html: /categories/teach-html , teach-java: /categories/teach-java , teach-javascript: /categories/teach-javascript , teach-python: /categories/teach-python , teach-rust: /categories/teach-rust  }
+  关于:  /2025/08/13/hello-everyone/
+
+# ========== 社交链接配置 ==========
+social:
+  GitHub: https://github.com/wushicheems || fab fa-github
+  Email: mailto:chengxunew@163.com || fas fa-envelope
+  Steam: https://steamcommunity.com/id/chengxuwushizhishisteam/ || fab fa-steam
+
+social_icon:
+  enable: true
+  icons_only: false
+  transition: true
+
+# ========== 搜索功能 ==========
+local_search:
+  enable: true
+  preload: false
+  highlight: true
+  search_form_position: bottom
+  search_result_position: right
+
+algolia_search:
+  enable: false
+
+# ========== 侧边栏配置 ==========
+aside:
+  enable: true
+  position: right
+  mobile: true
+  
+  card_author:
+    enable: true
+    description: 我很丑，很笨(纯瞎扯)
+    avatar: https://wushicheems.github.io/logo.png?ver=1
+    button:
+      enable: true                # 开启按钮
+      icon: fab fa-github         # Font Awesome图标
+      text: "Follow Me"              # 按钮文字
+      link: "https://github.com/wushicheems"
+  card_announcement:
+    enable: true
+    content: 联系18372735812(手机/微信)可以询问哦
+
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+
+# ========== 文章配置 ==========
+post:
+  cover:
+    enable: true
+    default: https://wushicheems.github.io/logo.png
+    position: center
+    width: 100%
+    height: auto
+  
+  meta:
+    date_type: created
+    categories: true
+    tags: true
+    wordcount: true
+    reading_time: true
+  
+  photo_zoom: true
+  photo_fancybox: true
+  photo_justify: true
+  
+  reward:
+    enable: false
+
+# ========== 评论系统 ==========
+valine:
+  enable: true
+  appId: blog-three-alpha-68.vercel.app
+  appKey: 1234qwer
+  serverURLs: https://blog-three-alpha-68.vercel.app
+  placeholder: 说点什么吧~
+  avatar: mp
+  meta: ['nick','mail','link']
+  pageSize: 10
+  lang: zh-cn
+
+# ========== 特效配置 ==========
+click_effect:
+  enable: true
+  type: fireworks
+
+canvas_fluttering_ribbon:
+  enable: true
+  color: "#42A5F5"
+  zIndex: -1
+  alpha: 0.6
+
+# ========== 代码高亮 ==========
+highlight_theme: mac
+highlight_copy: true
+highlight_lang: true
+
+# ========== 图片懒加载 ==========
+lazyload:
+  enable: true
+  loading_img: https://wushicheems.github.io/1/loading.gif
