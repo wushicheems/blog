@@ -36,6 +36,7 @@ menu:
   标签: { hello-everyone: /tags/hello-everyone, hexo-deploy: /tags/hexo-deploy , teach-algorithm: /tags/teach-algorithm , teach-c: /tags/teach-c , teach-cpp: /tags/teach-cpp , teach-css: /tags/teach-css , teach-html: /tags/teach-html , teach-java: /tags/teach-java , teach-javascript: /tags/teach-javascript , teach-python: /tags/teach-python , teach-rust: /tags/teach-rust }
   分类: {newone: /categories/newone, hexo-deploy: /categories/hexo-deploy , teach-algorithm: /categories/teach-algorithm , teach-c: /categories/teach-c , teach-cpp: /categories/teach-cpp , teach-css: /categories/teach-css , teach-html: /categories/teach-html , teach-java: /categories/teach-java , teach-javascript: /categories/teach-javascript , teach-python: /categories/teach-python , teach-rust: /categories/teach-rust  }
   关于:  /2025/08/13/hello-everyone/
+  服务器: {主网站: http://47.97.250.33 , 控制面板: http://47.97.250.33:7891}
 
 # ========== 社交链接配置 ==========
 social:
@@ -107,16 +108,20 @@ post:
     enable: false
 
 # ========== 评论系统 ==========
+# Valine 评论设置
 valine:
-  enable: true
-  appId: blog-three-alpha-68.vercel.app
-  appKey: 1234qwer
-  serverURLs: https://blog-three-alpha-68.vercel.app
-  placeholder: 说点什么吧~
-  avatar: mp
-  meta: ['nick','mail','link']
-  pageSize: 10
-  lang: zh-cn
+  enable: false
+  appId: 8u2h9OEXr9rXS6ceSErDO3vM-MdYXbMMI
+  appKey: RKVwhHDUlAg6UborSFqeWXDm
+  placeholder: 欢迎讨论哦！！！ # 评论框占位文字
+  avatar: mp # 头像样式 (mm/identicon/monsterid/wavatar/robohash/retro/blank)
+  meta: [nick, mail, link] # 评论者信息
+  pageSize: 10 # 每页评论数
+  lang: zh-cn # 语言
+  visitor: true # 文章阅读量统计
+  highlight: true # 代码高亮
+  recordIP: true # 是否记录评论者IP
+  serverURLs: https://8u2h9oex.api.lncldglobal.com
 
 # ========== 特效配置 ==========
 click_effect:
