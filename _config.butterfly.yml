@@ -31,12 +31,36 @@ background:
 
 # ========== 导航菜单 ==========
 menu:
-  首页: /
-  归档: /archives/
-  标签: { hello-everyone: /tags/hello-everyone, hexo-deploy: /tags/hexo-deploy , teach-algorithm: /tags/teach-algorithm , teach-c: /tags/teach-c , teach-cpp: /tags/teach-cpp , teach-css: /tags/teach-css , teach-html: /tags/teach-html , teach-java: /tags/teach-java , teach-javascript: /tags/teach-javascript , teach-python: /tags/teach-python , teach-rust: /tags/teach-rust }
-  分类: {newone: /categories/newone, hexo-deploy: /categories/hexo-deploy , teach-algorithm: /categories/teach-algorithm , teach-c: /categories/teach-c , teach-cpp: /categories/teach-cpp , teach-css: /categories/teach-css , teach-html: /categories/teach-html , teach-java: /categories/teach-java , teach-javascript: /categories/teach-javascript , teach-python: /categories/teach-python , teach-rust: /categories/teach-rust  }
-  关于:  /2025/08/13/hello-everyone/
-  服务器: {主网站: http://47.97.250.33 , 控制面板: http://47.97.250.33:7891}
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: 
+    hello-everyone: /tags/hello-everyone/ || fas fa-tag
+    hexo-deploy: /tags/hexo-deploy/ || fas fa-rocket
+    teach-algorithm: /tags/teach-algorithm/ || fas fa-code
+    teach-c: /tags/teach-c/ || fas fa-c
+    teach-cpp: /tags/teach-cpp/ || fas fa-c++
+    teach-css: /tags/teach-css/ || fas fa-css3-alt
+    teach-html: /tags/teach-html/ || fas fa-html5
+    teach-java: /tags/teach-java/ || fas fa-java
+    teach-javascript: /tags/teach-javascript/ || fas fa-js
+    teach-python: /tags/teach-python/ || fas fa-python
+    teach-rust: /tags/teach-rust/ || fas fa-cog
+  分类: 
+    hello-everyone: /categories/newone/ || fas fa-folder
+    hexo-deploy: /categories/hexo-deploy/ || fas fa-rocket
+    teach-algorithm: /categories/teach-algorithm/ || fas fa-code
+    teach-c: /categories/teach-c/ || fas fa-c
+    teach-cpp: /categories/teach-cpp/ || fas fa-c++
+    teach-css: /categories/teach-css/ || fas fa-css3-alt
+    teach-html: /categories/teach-html/ || fas fa-html5
+    teach-java: /categories/teach-java/ || fas fa-java
+    teach-javascript: /categories/teach-javascript/ || fas fa-js
+    teach-python: /categories/teach-python/ || fas fa-python
+    teach-rust: /categories/teach-rust/ || fas fa-cog
+  关于: /2025/08/13/hello-everyone/ || fas fa-info-circle
+  服务器: 
+    主网站: http://47.97.250.33 || fas fa-globe
+    控制面板: http://47.97.250.33:7891 || fas fa-cogs
 
 # ========== 社交链接配置 ==========
 social:

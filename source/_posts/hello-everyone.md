@@ -4,7 +4,7 @@ date: 2025-08-13 16:47:13
 tags: hello-everyone
 cover: https://wushicheems.github.io/logo.png
 excerpt: 新人入坑program和blog
-categories: newone
+categories: hello-everyone
 ---
 ## 欢迎阅读我的博客
 
