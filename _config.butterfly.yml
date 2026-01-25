@@ -59,6 +59,7 @@ menu:
     teach-rust: /categories/teach-rust/ || fas fa-cog
   关于: /2025/08/13/hello-everyone/ || fas fa-info-circle
   服务器: 
+    主网站: http://47.97.250.33 || fas fa-globe
     QDUOJ主网站: http://47.97.250.33:78 || fas fa-globe
     VijosOJ主网站: http://47.97.250.33:91 || fas fa-globe
     控制面板: http://47.97.250.33:7891 || fas fa-cogs
